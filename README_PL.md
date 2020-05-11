@@ -6,18 +6,6 @@
 
 https://github.com/apifunc
 
-## Projekt APIfunc jest wspierany przez [API Foundation](https://www.apifoundation.com)
-
-We started in 2018 with few concepts but one idea: fastest development.
-Now, in 2020 we are giving solutions:
-
-+ [APIexec - executor library for shell scripts](https://www.apiexec.com)
-+ [APIcra - shell scripts libraries](https://www.apicra.com)
-+ [APIunit - definition of application, CI, CD](https://www.apiunit.com)
-+ [APIbuild - build process definition, focused on quality, versioning](https://www.apibuild.com)
-+ [APIsql - bazy danych, zapytania, modele](https://www.apisql.com)
-+ [APIfunc - rozwiązania dla FaaS](https://www.apifunc.com)
-
 
 
 ## Czym jest APIfunc?
@@ -78,3 +66,20 @@ Platforma Twisted jest wyjątkowo spójna i wydajna, jednak:
 implementacja jawnej pętli zdarzeń okazuje się lepszym rozwiązaniem od mechanizmu oferowanego przez bibliotekę Gevent.
 
 Instrukcje async i await implementujące koprocedury sprawiły, że asynchroniczny kod napisany w języku Python 3.5 jest bardzo czytelny i podobny do kodu synchronicznego.
+
+
+# [API Foundation](https://www.apifoundation.com)
+
+Projekt APIfunc jest wspierany przez [API Foundation](https://www.apifoundation.com)
+
+Wystartowaliśmy w roku 2018 z kilkoma pomysłami ale jedną ideą:
++ szybsze wytwarzanie orogramowania
+
+Dziś, w roku 2020 dajemy rozwiązania w kilku obszarach:
+
++ [APIexec - executor library for shell scripts](https://www.apiexec.com)
++ [APIcra - shell scripts libraries](https://www.apicra.com)
++ [APIunit - definition of application, CI, CD](https://www.apiunit.com)
++ [APIbuild - build process definition, focused on quality, versioning](https://www.apibuild.com)
++ [APIsql - bazy danych, zapytania, modele](https://www.apisql.com)
++ [APIfunc - rozwiązania dla FaaS](https://www.apifunc.com)
