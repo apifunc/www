@@ -1,6 +1,6 @@
 + [polish version - PL](https://www.apifunc.com/README_PL.html)
 
-# [APIunit](https://www.apifunc.com)
+# [APIfunc](https://www.apifunc.com)
 
 ![apifunc-logo.png](https://logo.apifunc.com/apifunc-logo.png)
 
