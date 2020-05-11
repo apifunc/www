@@ -6,7 +6,8 @@
 
 https://github.com/apifunc
 
-# The project is supported by [API Foundation](https://apifoundation.com)We started in 2018 with few concepts but one idea: fastest development.
+# The project is supported by [API Foundation](https://apifoundation.com)
+We started in 2018 with few concepts but one idea: fastest development.
 Now, in 2020 we are giving solutions:
 
 + [APIexec - executor library for shell scripts](https://www.apiexec.com)
