@@ -71,3 +71,10 @@ Platforma Twisted jest wyjątkowo spójna i wydajna, jednak:
 + Każdy punkt końcowy mikrousługi trzeba implementowaÊ za pomocą klasy pochodnej od Resource i kodować wszystkie jej metody ( trzeba napisać kod interfejsu API )
 + Kod jest mało czytelny i trudny w diagnozowaniu ze względu na jego asynchroniczność
 + W przypadku długiego łańcucha funkcji zwrotnych (callback) wywołanych jedna po drugiej łatwo jest wpaść zależne wywołania przez to trudno jest przetestować aplikację i do tego celu trzeba używać specjalnego modułu do testów jednostkowych.
+
+
+##  Moduł asyncio (https://docs.python.org/3/library/asyncio.html)
+
+implementacja jawnej pętli zdarzeń okazuje się lepszym rozwiązaniem od mechanizmu oferowanego przez bibliotekę Gevent.
+
+Instrukcje async i await implementujące koprocedury sprawiły, że asynchroniczny kod napisany w języku Python 3.5 jest bardzo czytelny i podobny do kodu synchronicznego.
