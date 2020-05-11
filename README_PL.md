@@ -52,3 +52,22 @@ W kodzie opartym na platformie Twisted wykorzystywane są funkcje zwrotne wstrzy
 Ten model skraca okresy bezczynności procesu, a aplikacja może obsługiwać tysiące zapytań.  
 Nie oznacza to, że szybciej odpowiada na zapytania, a że jeden proces może odbierać więcej jednoczesnych zapytań i odpowiadać na nie w miarę otrzymywania niezbędnych danych.
 
+## Biblioteka Greenlet (https://github.com/python-greenlet/greenlet)
+jest pakietem utworzonym w języku Stackless (szczególnej implementacji CPython) oferującym tzw. greenlety.
+
+Greenlety to pseudowątki, które mogą wywoływać funkcje w języku Python, które mogą przełączać konteksty i przekazywać sterowanie innym funkcjom.  
+Przełączanie kontekstu odbywa się w pętli zdarzeń, dzięki czemu można tworzyć asynchroniczne aplikacje podobne do aplikacji wielowątkowych.
+
+
+Kod mikrousïugi wykorzystujÈcy standard WSGI i greenlety może obsługiwać wiele żądań jednocześnie i przełączać się pomiędzy nimi.  
+Jednak przełączanie pomiędzy greenlet-ami odbywa się jawnie, a to powoduje, że kod szybko się komplikuje a przez to staje nieczytelny.
+
+## Biblioteka Gevent (http://www.gevent.org)
+Gevent jest oparty o Greenlet i oferuje między innymi automatyczne przełączanie kodu między greenletami.
+
+## Asynchroniczna platforma Tornado (http://www.tornadoweb.org)
+
+Platforma Twisted jest wyjątkowo spójna i wydajna, jednak:
++ Każdy punkt końcowy mikrousługi trzeba implementowaÊ za pomocą klasy pochodnej od Resource i kodować wszystkie jej metody ( trzeba napisać kod interfejsu API )
++ Kod jest mało czytelny i trudny w diagnozowaniu ze względu na jego asynchroniczność
++ W przypadku długiego łańcucha funkcji zwrotnych (callback) wywołanych jedna po drugiej łatwo jest wpaść zależne wywołania przez to trudno jest przetestować aplikację i do tego celu trzeba używać specjalnego modułu do testów jednostkowych.
