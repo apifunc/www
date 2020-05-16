@@ -6,6 +6,22 @@
 
 https://github.com/apifunc
 
+# What it's?
+
+We are preparing an environment for long-running tasks, like calculations, consuming webservices, document generation, ... .
+
+The environment is prepared for code execution on any programming language from the lis:
++ javascript / nodeJS
++ python
++ php
+
+The code can by one simple function 
+
+
+
+# How it Work's ?
+ ...
+
 # The project is supported by [API Foundation](https://www.apifoundation.com)
 We started in 2018 with few concepts but one idea: fastest development.
 Now, in 2020 we are giving solutions:
