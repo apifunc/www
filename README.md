@@ -18,6 +18,14 @@ The environment is prepared for code execution on any programming language from 
 The code can by one simple function 
 
 
+## Benefits of FaaS
+
++ Increased developer productivity and faster development time
++ Not responsible for server management
++ Easy to scale and horizontal scaling is managed by the platform
++ Only pay for or consume resources when necessary
++ Functions can be written in almost any programming language
+
 
 # How it Work's ?
  ...
