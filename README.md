@@ -6,6 +6,7 @@
 
 https://github.com/apifunc
 
+
 # What it's?
 
 We are preparing an environment for long-running tasks, like calculations, consuming webservices, document generation, ... .
@@ -29,13 +30,31 @@ one standard
 # How it Work's ?
  ...
 
+# [APIfunc - Opensource functions for FaaS usage](https://www.apifunc.com)
++ denofunc.com
++ golangfunc.com
++ javafunc.com
++ luafunc.com
++ nodejsfunc.com
++ phpfunc.com
++ pyfunc.com
++ rubyfunc.com
++ rustfunc.com
++ shellfunc.com
+	
+ 
 # The project is supported by [API Foundation](https://www.apifoundation.com)
 We started in 2018 with few concepts but one idea: fastest development.
 Now, in 2020 we are giving solutions:
+
 
 + [APIexec - executor library for shell scripts](https://www.apiexec.com)
 + [APIcra - shell scripts libraries](https://www.apicra.com)
 + [APIunit - definition of application, CI, CD](https://www.apiunit.com)
 + [APIbuild - build process definition, focused on quality, versioning](https://www.apibuild.com)
 + [APIsql - data bases, queries, models](https://www.apisql.com)
-+ [APIfunc - FaaS solutions](https://www.apifunc.com)
+
+
+---
+
++ [edit](https://github.com/apifunc/www/edit/master/README.md)
